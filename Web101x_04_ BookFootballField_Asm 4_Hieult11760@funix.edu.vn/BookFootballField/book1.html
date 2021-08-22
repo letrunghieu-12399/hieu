@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="./css/detail1.css">
+    <link rel="stylesheet" href="./css/book1.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
+    <title>Sân bóng Tân Dân</title>
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>                        
+                </button>
+
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+
+                    <ul class="nav navbar-nav">
+
+                        <li class="active"><a href="./Index.html">Trang chủ</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="Details-1.html">Tìm sân <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="Details-1.html">Sân tân sân</a></li>
+                                <li><a href="Details-2.html">Sân tô hiệu</a></li>
+
+                            </ul>
+                        </li>
+                        <li><a href="About.html">Giới thiệu</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+
+                    <div class="item active">
+                        <img src="./Images/sanbongthcsbinhkhiem5.jpg" alt="Los Angeles" style="width:100%; height: 70%;">
+                        <div class="carousel-caption">
+                            <h1>Thuê sân bóng</h1>
+                            <p>Phong trảo chơi thể thao nói chung và môn thể thao vua bóng đá nói chung được đông đảo mọi người mọi lứa tuổi từ thanh thiếu niên đến trung niên tham gia</p>
+                            <p>Để đáp ứng nhu cầu của tất cả những đội bóng trong khu vực, chúng tôi đã xây dựng lên ứng dụng "Thuê sân bóng"</p>
+                            <p>Thuê sân bóng là ứng dụng kết nối chủ sân bóng với những đội bóng có nhu cầu thuê sân.</p>
+                            <p>Ứng dụng cung cấp tiện ích thông minh giúp các đội bóng tìm được sân phù hợp nhất, đặt sân một cách hiệu quả nhất</p>
+                            <p>Hệ thống quản lý sân, lịch biểu thông minh giảm thiểu tối đa thời gian chi phí, tăng doanh thu cho chủ sân.</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="./Images/Co-nhan-tao-san-bong-Nguyen-Gia-300x182.jpg" alt="Chicago" style="width:100%;">
+
+                    </div>
+
+                    <div class="item">
+                        <img src="./Images/giao-luu-bong-da1.jpg" alt="New York" style="width:100%;">
+
+                    </div>
+
+                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+
+        <hr>
+
+    </header>
+    <main>
+        <div class="form-control.file">
+            <div class="container">
+                <h2 style="padding-left: 200px; color: blue;">Đặt sân</h2>
+                <form class="form-horizontal " action="/action_page.php">
+                    <div class="form-group">
+                        <label class="control-label col-sm-2">Tên sân:</label>
+                        <div class="col-sm-10">Sân bóng nhân tạo Tân Dân</div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="pwd">Địa chỉ:</label>
+                        <div class="col-sm-10">Xóm 8, xã Tân Dân, huyện Khoái Châu, tỉnh Hưng Yên</div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="pwd">Liên hệ:</label>
+                        <div class="col-sm-10">0889133673 - Anh Hiếu</div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="pwd">Tên người đặt:</label>
+                        <div class="col-sm-10">
+                            <input type="text" id="fullname" class="form-control" id="pwd" required onkeyup="check()" placeholder="Tên người đặt sân" name="pwd">
+                        </div>
+                        <label class="control-label col-sm-2" for="pwd"></label>
+                        <div id="errName" style="color: red;" class="col-sm-10"></div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="pwd">Số điện thoại:</label>
+                        <div class="col-sm-10">
+                            <input type="text" id="contact" class="form-control" id="pwd" required onkeyup="check()" placeholder="Số điện thoại" name="pwd">
+                        </div>
+                        <label class="control-label col-sm-2" for="pwd"></label>
+                        <div id="errContact" style=" color: red;" class="col-sm-10"></div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="pwd">Đặt khung giờ:</label>
+                        <div class="col-sm-10">
+                            <div class="col-auto my-1">
+                                <select class="custom-select mr-sm-2" id="khunggio" required onchange="kiemtrakhunggio()" id="inlineFormCustomSelect">
+                                  <option selected value="-1" onchange="check()">-- Chọn khung giờ --</option>
+                                  <option value="300000">06:00 - 16:00: 300k/h</option>
+                            <option value="500000" > 16:00 - 17:30: 500k/h</option>
+                            <option value="600000" >  17:30 - 20:30: 600k/h</option>
+                            <option value="400000"> 20:30 - 22:00: 400k/h</option>
+                                </select>
+                            </div>
+                            <label class="control-label col-sm-2" for="pwd"></label>
+                            <div id="errKhunggio" style="color: red;" class="col-sm-10"></div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="pwd">Số giờ:</label>
+                        <div class="col-sm-10">
+                            <input type="text" id="time" class="form-control" required onkeyup="check()" id="pwd" placeholder="Số giờ" name="pwd">
+                        </div>
+                        <label class="control-label col-sm-2" for="pwd"></label>
+                        <div id="errTime" style="color: red" ; class="col-sm-10"></div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="pwd">Số người chơi:</label>
+                        <div class="col-sm-10">
+                            <input id="soluong" name="soluong" type="text" class="form-control" placeholder="Số người chơi" required onkeyup="check()">
+                        </div>
+                        <label class="control-label col-sm-2" for="pwd"></label>
+                        <div id="errSoluong" style="color: red;" class="col-sm-10"></div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="pwd">Số đội chơi:</label>
+                        <div class="col-sm-10">
+                            <input type="text" id="sodoi" class="form-control" required onkeyup="check()" id="pwd" placeholder="Số đội chơi" name="pwd">
+                        </div>
+                        <label class="control-label col-sm-2" for="pwd"></label>
+                        <div id="errsodoi" style="color: red; " class="col-sm-10"></div>
+                    </div>
+                    <label class="control-label col-sm-2" for="pwd">Đặt định kỳ</label>
+                    <div class="col-sm-10" onkeyup="check()">
+                        <label><input type="checkbox"  name="remember "> Nước uống miễn phí</label><br>
+                        <label><input type="checkbox" id="dongphuc" type="checkbox" value="300000" name="remember"  onchange="check()"> Đồng phục thi đấu (300k/bộ)</label><br>
+                        <label><input type="checkbox" id="trongtai" type="checkbox" value="200000" name="remember"  onchange="check()"> Thuê trọng tài (200k/h)</label>
+                    </div>
+                    <label class="control-label col-sm-2" for="pwd">Dịch vụ thêm</label>
+                    <div class="col-sm-10">
+                        <input type="radio" name="gender" required> Không <br>
+                        <input type="radio" name="gender" required checked> Hàng tuần <br>
+                        <input type="radio" name="gender" required> Hàng tháng
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="pwd">Tổng tiền:</label>
+                        <div class="col-sm-10 ">
+                            <input id="tongtien" type="text" placeholder="Số tiền">
+                        </div>
+                        <label class="control-label col-sm-2" for="pwd"></label>
+                        <div id="error" style="color: red;padding-left: 180px; " class="col-sm-10"></div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <input onclick="check()" style="background-color: seagreen;" type="button" name="datsan" value="Đặt sân">
+                        </div>
+                        <label class="control-label col-sm-2" for="pwd"></label>
+                        <div id="true" class="col-sm-10"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </main>
+    <script src="./javascript/book1.js "></script>
+    <hr>
+    <footer class="footer ">
+        <div class="thuesanbong ">
+            <h2>Thuê sân bóng</h2>
+            <ul>
+                <li>Liên hệ :
+                    <a href="mailto:letrunghieu12399@gmail.com ">Thuesanbong.com</a>
+                </li>
+                <li>Facebook :
+                    <a href="https://www.facebook.com/letrunghieu1203/ ">Thuê sân bóng</a>
+                </li>
+                <li>Zalo :
+                    <a href="https://chat.zalo.me/ ">0889133673</a>
+                </li>
+            </ul>
+        </div>
+        <div class="thongtin ">
+            <h2>Thông tin</h2>
+            <ul>
+                <li><a href="Index.html ">Trang chủ</a></li>
+                <li><a href="About.html ">Giới thiệu</a></li>
+                <li><a href="Details-2.html ">Tìm sân</a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

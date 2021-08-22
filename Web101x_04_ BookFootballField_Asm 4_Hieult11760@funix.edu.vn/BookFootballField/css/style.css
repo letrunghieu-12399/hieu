@@ -1,0 +1,205 @@
+        /*
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 16px;
+            color: white;
+        }
+        heaader
+        
+        .dieuhuong {
+            overflow: hidden;
+        }
+        
+        header ul {
+            list-style-type: none;
+            text-align: center;
+            background-color: cadetblue;
+            padding: 0;
+        }
+        
+        header ul li {
+            color: black;
+            font-size: 20px;
+            display: inline-table;
+            width: 120px;
+            height: 40px;
+            line-height: 40px;
+            position: relative;
+        }
+        
+        header ul li a {
+            text-decoration: none;
+            color: black;
+        }
+        
+        header ul li:hover {
+            color: gainsboro;
+            font-weight: bold;
+            display: inline-table;
+            width: 120px;
+            background: #f1f1f1;
+        }
+        
+        header ul li>.submenu {
+            display: none;
+            position: absolute;
+            list-style-type: none;
+        }
+        
+        header ul li:hover .submenu {
+            display: block;
+        }
+        
+        i {
+            font-size: 25px;
+            color: black;
+        }
+        */
+        
+        header {
+            font-size: 16px;
+            color: black;
+        }
+        
+        .about {
+            background-image: url(../Images/sanbongthcsbinhkhiem5.jpg);
+            width: auto;
+            height: 300px;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            padding: 5px;
+        }
+        
+        .icon {
+            width: 30px;
+            height: 30px;
+            display: none;
+            float: right;
+        }
+        /*main*/
+        
+        main {
+            color: black;
+            font-size: 16px;
+        }
+        
+        .menu1 {
+            width: auto;
+            height: auto;
+            padding-bottom: 1em;
+        }
+        
+        .tandan {
+            width: 65%;
+            float: left;
+            padding: 1em;
+            margin: 10px;
+            border: 1px solid lavenderblush;
+            position: relative;
+        }
+        
+        .chuthich {
+            width: 31%;
+            height: 140%;
+            float: right;
+            padding: 10px;
+            border: 1px solid lavenderblush;
+            margin: 10px;
+            position: relative;
+        }
+        
+        .chuthich p {
+            color: black;
+            font-style: italic;
+            font-size: 18px;
+        }
+        
+        .tohieu {
+            width: 65%;
+            height: auto;
+            padding: 1em;
+            border: 1px solid lavenderblush;
+            clear: both;
+            margin: 10px;
+            position: relative;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+        }
+        
+        h2 {
+            color: rgb(47, 78, 79);
+            font-family: sans-serif;
+            font-size: 2em;
+        }
+        
+        h3 {
+            color: brown;
+            font-style: italic;
+            font-size: 1.5em;
+        }
+        
+        #tel {
+            color: darkblue;
+            text-decoration: none;
+        }
+        
+        #tel:hover {
+            color: dimgray;
+            font-weight: bold;
+            display: inline-table;
+            width: 80px;
+            background: fuchsia;
+        }
+        
+        #link {
+            color: darkblue;
+            text-decoration: none;
+        }
+        
+        #link:hover {
+            color: dimgray;
+            font-weight: bold;
+            display: inline-table;
+            width: 120px;
+            background: fuchsia;
+        }
+        
+        #anh {
+            width: 345px;
+        }
+        
+        #anh2 {
+            width: 600px;
+        }
+        /*footer*/
+        
+        .address {
+            width: auto;
+            height: auto;
+            padding: 1em;
+            background-color: darkcyan;
+        }
+        
+        .address h1 {
+            color: white;
+        }
+        
+        .address ul li {
+            color: white;
+        }
+        
+        .address ul li a {
+            color: white;
+            font-style: italic;
+        }
+        
+        .address ul li a:hover {
+            color: dimgray;
+            font-weight: bold;
+            display: inline-table;
+            width: 150px;
+            background: rgb(142, 135, 35);
+        }
